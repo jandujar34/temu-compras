@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras TEMU</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: linear-gradient(to bottom right, #1a1a1a, #4a1d96);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(138, 75, 255, 0.2);
+            border: 1px solid #6d28d9;
+        }
+        .header {
+            text-align: center;
+            color: #d8b4fe;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .service-card {
+            background: rgba(55, 48, 163, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #6d28d9;
+        }
+        .service-card h3 {
+            color: #d8b4fe;
+            margin-top: 0;
+        }
+        .service-card p {
+            color: #e9d5ff;
+            margin: 0;
+        }
+        .process {
+            background: rgba(55, 48, 163, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 1px solid #6d28d9;
+        }
+        .process h2 {
+            color: #d8b4fe;
+            text-align: center;
+            margin-top: 0;
+        }
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .step {
+            padding: 15px;
+        }
+        .step-number {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #d8b4fe;
+            margin-bottom: 10px;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .contact h2 {
+            color: #d8b4fe;
+        }
+        .whatsapp-button {
+            background: #6d28d9;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            cursor: pointer;
+            display: inline-block;
+            margin: 20px 0;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .whatsapp-button:hover {
+            background: #7c3aed;
+        }
+        .contact-number {
+            font-size: 1.25em;
+            color: #e9d5ff;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>¡Tus Compras en TEMU! 🛍️</h1>
+            <p>Te ayudo a conseguir todo lo que necesitas</p>
+        </div>
+
+        <div class="services">
+            <div class="service-card">
+                <h3>Compras Personalizadas 🛍️</h3>
+                <p>Busco y compro lo que necesites</p>
+            </div>
+            <div class="service-card">
+                <h3>Envío Seguro 📦</h3>
+                <p>Rastreo de tu pedido en tiempo real</p>
+            </div>
+            <div class="service-card">
+                <h3>Asesoría Completa 💬</h3>
+                <p>Te ayudo a elegir la mejor opción</p>
+            </div>
+            <div class="service-card">
+                <h3>Pagos Seguros 💳</h3>
+                <p>Métodos de pago confiables</p>
+            </div>
+        </div>
+
+        <div class="process">
+            <h2>¿Cómo funciona?</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <p>Me envías el enlace o foto del producto que deseas</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <p>Te confirmo el precio total con envío incluido</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <p>Realizas el pago y gestiono tu pedido</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2>¡Haz tu pedido ahora!</h2>
+            <p class="contact-number">📱 WhatsApp: 0968210552</p>
+            <a href="https://wa.me/593968210552" class="whatsapp-button">
+                Contactar por WhatsApp
+            </a>
+        </div>
+    </div>
+</body>
+</html>
